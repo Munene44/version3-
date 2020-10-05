@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    {{msg}}
   </div>
 </template>
 
@@ -8,6 +9,28 @@
 export default {
   name: 'App',
   components: {
+
+  },
+  data(){
+    return{
+      todo:[
+      {
+        id: 1,
+        title: "Todo one"
+        completed: false
+      },
+      {
+        id: 1,
+        title: "Todo two"
+        completed: true
+      },
+      {
+        id: 1,
+        title: "Todo one"
+        completed: false
+      }
+      ]
+    }
   }
 }
 </script>
