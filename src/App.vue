@@ -32,6 +32,11 @@ export default {
       }
       ]
     }
+  },
+  methods: {
+    deleteTodo(id){
+      
+    }
   }
 }
 </script>
