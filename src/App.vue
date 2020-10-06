@@ -8,13 +8,13 @@
 import Todos from './components/Todos';
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
     Todos
     },
-  data(){
+  data() {
     return{
-      todo:[
+      todos:[
       {
         id: 1,
         title: "Todo One",
@@ -23,7 +23,7 @@ export default {
       {
         id: 1,
         title: "Todo Two",
-        completed: true
+        completed: false
       },
       {
         id: 1,
