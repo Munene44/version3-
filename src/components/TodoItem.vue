@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<p>Todo Item</p>
+		<p>{{todo.title}}</p>
 	</div>
 </template>
 <script>
