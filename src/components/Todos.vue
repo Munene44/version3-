@@ -1,8 +1,7 @@
 <template>
 	<div>
 		<div v-bind:key="todo.id" v-for="todo in todos">
-			<h3>{{todo.title}}</h3>
-			
+		<TodoItem />			
 		</div>
 	</div>
 	
@@ -10,8 +9,15 @@
 
 
 <script>
+	import TodoItem from './TodoItem.vue';
+
 	export default {
 		name: "Todos",
+
+		components: {
+			TodoItem
+		},
+
 		props: ["todos"]
 
 	}
