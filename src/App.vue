@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     deleteTodo(id){
-      
+      this.todos =this.todo.filter(todo => todo.id !== id);
     }
   }
 }
