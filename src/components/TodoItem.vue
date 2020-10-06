@@ -9,9 +9,15 @@
 <script>
 	export default {
 		name:"TodoItem",
-    props: ["todo"]
+    props: ["todo"],
+    methods: {
+      markComplete() {
+        this.todo.completed = !this.todo.completed
+      }
+    }
 	}
 </script>
+
 <style scoped>
   .todo-item {
     background: #f4f4f4;
