@@ -1,4 +1,4 @@
-# todovue
+# todo list
 
 ## Project setup
 ```
